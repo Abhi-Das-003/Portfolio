@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Awesome Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: linear-gradient(120deg, #e0c3fc, #8ec5fc);
+    }
+    header {
+      background-color: #4B3F72;
+      color: white;
+      text-align: center;
+      padding: 40px 0;
+      margin-bottom: 40px;
+    }
+    nav {
+      background: #333;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: color .3s;
+    }
+    nav a:hover {
+      color: #E0C3FC;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    h2 {
+      color: #4B3F72;
+    }
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .project-card {
+      flex: 1 1 250px;
+      background: #f7f7f7;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: transform .2s;
+    }
+    .project-card:hover {
+      transform: translateY(-5px) scale(1.02);
+    }
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background: #4B3F72;
+      color: #fff;
+      margin-top: 60px;
+      border-radius: 0 0 15px 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Awesome Portfolio</h1>
+    <p>Welcome to my project showcase!</p>
+  </header>
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi
